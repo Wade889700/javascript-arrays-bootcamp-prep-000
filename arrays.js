@@ -1,7 +1,7 @@
 function addElementToBeginningOfArray(myArray, element){
-  var aaa = myArray
-  bbb = [element, ...aaa]
-  return bbb
+    myArray[0]=element
+    return myArray
+
 }
 
 function destructivelyAddElementToBeginningOfArray(myArray, element){
