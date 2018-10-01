@@ -7,11 +7,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
    array.unshift(element)
    return array
 }
-function addElementToEndOfArray(myArray, element){
-  return myArray.push(element)
+function addElementToEndOfArray(array, element) {
+  return newarray = [...array, element];
 }
-function destructivelyAddElementToEndOfArray(myArray, element){
-  return myArray.push(element)
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
 }
 /*~~~~~~~~~~~~~~~~~~~~~~*/
 function accessElementInArray(array,index){
