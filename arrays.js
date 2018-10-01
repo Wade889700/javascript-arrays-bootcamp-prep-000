@@ -1,5 +1,5 @@
 function addElementToBeginningOfArray(myArray, element){
-    myArray[0]=element
+    myArray.splice(0,0,element)
     return myArray
 
 }
