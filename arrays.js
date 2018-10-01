@@ -32,5 +32,7 @@ function removeElementFromBeginningOfArray(array){
 function removeElementFromEndOfArray(array){
   return array.slice(0,2)
 }
-function 
+function chocolateBars(array){
+  var 
+}
 
