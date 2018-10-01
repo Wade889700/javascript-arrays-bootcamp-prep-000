@@ -4,8 +4,7 @@ function addElementToBeginningOfArray(myArray, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(myArray, element){
-  myArray = myArray.unshift("element")
-  return myArray
+  return myArray.unshift(element)
 }
 
 function addElementToEndOfArray(myArray, element){
