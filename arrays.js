@@ -1,7 +1,6 @@
-function addElementToBeginningOfArray(myArray, element){
-    myArray.splice(0,0,element)
-    return myArray
-
+function addElementToBeginningOfArray(marray, element) {
+   var newarray = [element,...marray]
+  return newarray
 }
 
 function destructivelyAddElementToBeginningOfArray(myArray, element){
